@@ -1,59 +1,233 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<img src="assets/banner.png" alt="E-Voting OSIS Banner" width="100%">
+
+<br><br>
+
+<img src="assets/logo.png" alt="Logo E-Voting OSIS" width="160">
+
+<br>
+
+# 🗳️ E-Voting OSIS
+
+### Sistem Pemilihan Ketua & Wakil Ketua OSIS Berbasis Digital
+
+<p>
+  <img src="https://img.shields.io/badge/Laravel-Framework-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
+  <img src="https://img.shields.io/badge/Bootstrap-Frontend-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/PWA-Progressive%20Web%20App-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
 </p>
 
-## About Laravel
+<p>
+  <img src="https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/Blade-Template-orange?style=flat-square" alt="Blade">
+  <img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Status-Development-yellow?style=flat-square" alt="Status">
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<br>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p>
+  <strong>Digitalisasi proses pemilihan Ketua dan Wakil Ketua OSIS<br>
+  untuk menciptakan proses pemilihan yang lebih praktis, terstruktur, dan modern.</strong>
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<br>
 
-## Learning Laravel
+</div>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 📖 Tentang E-Voting OSIS
 
-## Laravel Sponsors
+**E-Voting OSIS** adalah sistem informasi berbasis web yang dirancang untuk
+mendigitalisasi proses pemilihan Ketua dan Wakil Ketua Organisasi Siswa
+Intra Sekolah (OSIS).
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Sistem ini membantu sekolah dan panitia dalam mengelola seluruh proses
+pemilihan, mulai dari pengelolaan data siswa sebagai pemilih, data kelas,
+kandidat, periode pemilihan, proses pemungutan suara, hingga rekapitulasi
+hasil pemilihan.
 
-### Premium Partners
+Aplikasi dikembangkan menggunakan **Laravel** sebagai framework utama,
+**Bootstrap** untuk antarmuka, **MySQL** sebagai database, serta dukungan
+**Progressive Web App (PWA)** agar aplikasi dapat digunakan dengan nyaman
+pada perangkat komputer maupun smartphone.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 🎯 Tujuan Pengembangan
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+E-Voting OSIS dikembangkan untuk membantu sekolah melakukan transformasi
+digital dalam proses pemilihan OSIS.
 
-## Code of Conduct
+Tujuan utama sistem:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- 🗳️ Mendigitalisasi proses pemilihan Ketua dan Wakil Ketua OSIS
+- 📄 Mengurangi penggunaan kertas dalam proses pemungutan suara
+- ⚡ Mempercepat proses pemungutan dan rekapitulasi suara
+- 👨‍🎓 Mempermudah siswa dalam melakukan pemilihan
+- 👨‍💼 Mempermudah panitia dalam mengelola data pemilihan
+- 📊 Mempermudah proses penghitungan dan rekapitulasi suara
+- 🔐 Membantu mengatur hak akses pengguna
+- 📱 Mendukung penggunaan pada perangkat mobile
+- 🏫 Mendukung penerapan teknologi digital di lingkungan sekolah
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+# ✨ Fitur Utama
 
-## License
+## 👨‍💼 Admin
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Admin merupakan pengguna dengan hak akses utama untuk mengelola sistem.
+
+Fitur Admin meliputi:
+
+- 📊 Dashboard
+- 👤 Manajemen pengguna
+- 👨‍🎓 Manajemen data siswa
+- 🏫 Manajemen data kelas
+- 🗳️ Manajemen kandidat
+- 📅 Manajemen pemilihan
+- ⚙️ Pengaturan sistem
+- 🔐 Pengelolaan hak akses
+- 📈 Melihat rekapitulasi suara
+- 🏆 Melihat hasil pemilihan
+
+---
+
+## 👨‍💼 Panitia
+
+Panitia digunakan untuk membantu mengelola proses pemilihan OSIS.
+
+Fitur Panitia meliputi:
+
+- 📊 Melihat dashboard pemilihan
+- 👨‍🎓 Melihat data pemilih
+- 🗳️ Mengelola data kandidat
+- 📅 Mengelola proses pemilihan
+- 📈 Memantau jumlah suara
+- 📊 Melihat rekapitulasi hasil voting
+
+Hak akses panitia dapat disesuaikan dengan kebutuhan sekolah.
+
+---
+
+## 👨‍🎓 Pemilih
+
+Pemilih merupakan siswa yang terdaftar sebagai peserta pemilihan.
+
+Fitur Pemilih:
+
+- 🔐 Login ke sistem
+- 👤 Melihat informasi akun
+- 👥 Melihat daftar kandidat
+- 🖼️ Melihat foto kandidat
+- 📋 Melihat visi dan misi
+- 🗳️ Memilih pasangan kandidat
+- ✅ Melakukan konfirmasi pilihan
+- 📌 Melihat status pemilihan
+- 🚫 Mencegah pemilih memberikan suara lebih dari satu kali
+
+---
+
+# 👥 Role Pengguna
+
+Sistem memiliki beberapa jenis pengguna dengan hak akses yang berbeda.
+
+<table>
+<thead>
+<tr>
+<th align="center">Role</th>
+<th align="center">Deskripsi</th>
+<th align="center">Akses Utama</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td align="center">👨‍💼 <strong>Admin</strong></td>
+<td>Mengelola keseluruhan sistem</td>
+<td>Pengguna, siswa, kelas, kandidat, pemilihan, voting, dan hasil</td>
+</tr>
+
+<tr>
+<td align="center">👨‍💼 <strong>Panitia</strong></td>
+<td>Mengelola proses pemilihan</td>
+<td>Kandidat, pemilih, pemilihan, monitoring, dan rekapitulasi</td>
+</tr>
+
+<tr>
+<td align="center">👨‍🎓 <strong>Pemilih</strong></td>
+<td>Siswa yang memberikan suara</td>
+<td>Melihat kandidat dan melakukan voting</td>
+</tr>
+
+</tbody>
+</table>
+
+> 💡 Hak akses pengguna dapat disesuaikan dengan kebutuhan dan kebijakan
+> masing-masing sekolah.
+
+---
+
+# 🧩 Modul Sistem
+
+Sistem terdiri dari beberapa modul utama yang saling terintegrasi.
+
+---
+
+## 1️⃣ Manajemen Pengguna
+
+Modul ini digunakan untuk mengelola akun pengguna yang dapat mengakses
+sistem.
+
+Data yang dapat dikelola antara lain:
+
+- Nama pengguna
+- Username / email
+- Password
+- Role pengguna
+- Status akun
+
+---
+
+## 2️⃣ Manajemen Siswa
+
+Modul ini digunakan untuk menyimpan dan mengelola data siswa yang terdaftar
+sebagai pemilih.
+
+Data siswa dapat meliputi:
+
+- NIS / NISN
+- Nama siswa
+- Jenis kelamin
+- Kelas
+- Status pemilih
+- Akun pengguna
+
+---
+
+## 3️⃣ Manajemen Kelas
+
+Modul ini digunakan untuk mengelompokkan siswa berdasarkan kelas.
+
+Contoh:
+
+```text
+Kelas X
+├── X TKJ
+├── X OTKP
+└── X lainnya
+
+Kelas XI
+├── XI TKJ
+├── XI OTKP
+└── XI lainnya
+
+Kelas XII
+├── XII TKJ
+├── XII OTKP
+└── XII lainnya
