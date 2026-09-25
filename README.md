@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="banner.png" alt="E-Voting OSIS Banner" width="100%">
+<img src="benner.png" alt="E-Voting OSIS Banner" width="100%">
 
 <br><br>
 
