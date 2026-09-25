@@ -1,0 +1,15 @@
+{
+    "name": "E-Voting OSIS",
+    "short_name": "E-Voting",
+    "start_url": "/bilik",
+    "display": "fullscreen",
+    "background_color": "#fdfbfb",
+    "theme_color": "#007aff",
+    "icons": [
+        {
+            "src": "/icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
